@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>计数器</title>
+</head>
+<body>
+
+
+<div id="app">
+    <h2>当前计数：{{counter}}</h2>
+
+    <!--    <button v-on:click="counter++">+</button>-->
+    <!--    <button v-on:click="counter&#45;&#45;">-</button>-->
+
+    <!--    <button v-on:click="add">+</button>-->
+    <!--    <button v-on:click="sub">-</button>-->
+
+    <!--  @click 是v-on 的语法糖  -->
+    <button @click="add">+</button>
+    <button @click="sub">-</button>
+
+</div>
+
+<script src="../js/vue.js"></script>
+<script>
+  const app = new Vue({
+    // 这里的el...是叫options，可以有很多其他的
+    el: '#app',
+    data: {
+      counter: 0,
+    },
+    methods: {
+      add: function () {
+        // this是拿到当前对象的数据
+        this.counter++
+
+      },
+      sub: function () {
+        this.counter--
+      },
+
+      // 以下是生命周期方法
+      beforeCreate: function () {
+
+      },
+      created: function () {
+        // 一般在这里网路请求
+
+      },
+      mounted: function () {
+
+      }
+    }
+  })
+
+</script>
+</body>
+</html>

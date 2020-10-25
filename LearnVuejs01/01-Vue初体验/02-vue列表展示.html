@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>vue列表展示</title>
+</head>
+<body>
+
+<div id="app">
+    <ul>
+        <li v-for="item in movies">{{item}}</li>
+    </ul>
+</div>
+
+<script src="../js/vue.js"></script>
+<script>
+  const app = new Vue({
+    el: '#app',
+    data: {
+      message: '你好哈',
+      movies: ['星际穿越', '盗梦空间', '蝙蝠侠：黑暗骑士崛起', '少年派']
+    }
+  })
+
+</script>
+</body>
+</html>
