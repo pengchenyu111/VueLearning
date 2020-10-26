@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61b90792-dae7-465e-8e05-40eacb8c2664" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/06-条件判断/01-v-if的使用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-条件判断/02-v-if和v-else的使用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-条件判断/03-v-if和v-else-if和v-else的使用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-条件判断/04-用户登录切换的案例.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-条件判断/05-用户登录切换的案例(小问题).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-条件判断/06-v-show的使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-循环遍历/01-v-for遍历数组.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-循环遍历/02-v-for遍历对象.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-循环遍历/03-v-for使用过程添加key.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-循环遍历/04-哪些数组的方法是响应式的.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-循环遍历/05-作业的回顾和完成.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-循环遍历/v-for往数组中插入元素页面的渲染过程.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -25,79 +25,29 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/05-事件监听/03-v-on的修饰符.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/05-事件监听/01-v-on的基本使用.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/06-条件判断/01-v-if的使用.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/06-条件判断/02-v-if和v-else的使用.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/06-条件判断/03-v-if和v-else-if和v-else的使用.html">
+        <entry file="file://$PROJECT_DIR$/07-循环遍历/03-v-for使用过程添加key.html">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04-计算属性/01-计算属性的基本使用.html">
+        <entry file="file://$PROJECT_DIR$/07-循环遍历/04-哪些数组的方法是响应式的.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="27" column="14" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/06-条件判断/04-用户登录切换的案例.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/06-条件判断/05-用户登录切换的案例(小问题).html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+            <state relative-caret-position="589">
+              <caret line="55" column="46" lean-forward="true" selection-start-line="55" selection-start-column="46" selection-end-line="55" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/06-条件判断/06-v-show的使用.html">
+        <entry file="file://$PROJECT_DIR$/07-循环遍历/05-作业的回顾和完成.html">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04-计算属性/02-计算属性的复杂操作.html">
+        <entry file="file://$PROJECT_DIR$/03-动态绑定属性/02-v-bind动态绑定class-对象语法.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="617">
-              <caret line="35" column="42" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
+            <state relative-caret-position="380">
+              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -146,6 +96,10 @@
         <option value="$PROJECT_DIR$/05-事件监听/03-v-on的修饰符.html" />
         <option value="$PROJECT_DIR$/05-事件监听/01-v-on的基本使用.html" />
         <option value="$PROJECT_DIR$/06-条件判断/05-用户登录切换的案例(小问题).html" />
+        <option value="$PROJECT_DIR$/06-条件判断/06-v-show的使用.html" />
+        <option value="$PROJECT_DIR$/07-循环遍历/01-v-for遍历数组.html" />
+        <option value="$PROJECT_DIR$/07-循环遍历/02-v-for遍历对象.html" />
+        <option value="$PROJECT_DIR$/07-循环遍历/04-哪些数组的方法是响应式的.html" />
       </list>
     </option>
   </component>
@@ -173,12 +127,12 @@
             <path>
               <item name="LearnVuejs01" type="b2602c69:ProjectViewProjectNode" />
               <item name="LearnVuejs01" type="462c0819:PsiDirectoryNode" />
-              <item name="04-计算属性" type="462c0819:PsiDirectoryNode" />
+              <item name="03-动态绑定属性" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LearnVuejs01" type="b2602c69:ProjectViewProjectNode" />
               <item name="LearnVuejs01" type="462c0819:PsiDirectoryNode" />
-              <item name="06-条件判断" type="462c0819:PsiDirectoryNode" />
+              <item name="07-循环遍历" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -191,7 +145,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/07-循环遍历" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -207,11 +161,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyOwnCodes\WebStorm\VueLearning\LearnVuejs01\07-循环遍历" />
       <recent name="D:\MyOwnCodes\WebStorm\VueLearning\LearnVuejs01" />
       <recent name="D:\MyOwnCodes\WebStorm\VueLearning\LearnVuejs01\04-计算属性" />
       <recent name="D:\MyOwnCodes\WebStorm\VueLearning\LearnVuejs01\03-动态绑定属性" />
       <recent name="D:\MyOwnCodes\WebStorm\VueLearning\LearnVuejs01\02-插值的操作" />
-      <recent name="D:\MyOwnCodes\WebStorm\VueLearning\LearnVuejs01\js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -237,7 +191,7 @@
       <option name="presentableId" value="Default" />
       <updated>1603610155401</updated>
       <workItem from="1603610156832" duration="8759000" />
-      <workItem from="1603683183113" duration="14964000" />
+      <workItem from="1603683183113" duration="18410000" />
     </task>
     <task id="LOCAL-00001" summary="Add template.">
       <created>1603617468913</created>
@@ -281,15 +235,21 @@
       <option name="project" value="LOCAL" />
       <updated>1603714813276</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="条件判断v-if的使用.">
+      <created>1603716627222</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1603716627222</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23723000" />
+    <option name="totallyTimeSpent" value="27169000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1913" y="-7" width="2062" height="1136" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49950248" visible="true" weight="0.19101678" />
       <window_info id="Structure" order="1" sideWeight="0.5004975" side_tool="true" weight="0.19101678" />
@@ -321,7 +281,8 @@
     <MESSAGE value="计算属性的深入理解." />
     <MESSAGE value="ES6新特性." />
     <MESSAGE value="事件监听v-on的使用." />
-    <option name="LAST_COMMIT_MESSAGE" value="事件监听v-on的使用." />
+    <MESSAGE value="条件判断v-if的使用." />
+    <option name="LAST_COMMIT_MESSAGE" value="条件判断v-if的使用." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/js/vue.js">
@@ -401,13 +362,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" selection-start-line="8" selection-end-line="21" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-动态绑定属性/02-v-bind动态绑定class-对象语法.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -542,6 +496,54 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/06-条件判断/06-v-show的使用.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-循环遍历/01-v-for遍历数组.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-循环遍历/02-v-for遍历对象.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-循环遍历/v-for往数组中插入元素页面的渲染过程.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-循环遍历/03-v-for使用过程添加key.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="1259" column="4" selection-start-line="1259" selection-start-column="4" selection-end-line="1259" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-循环遍历/04-哪些数组的方法是响应式的.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="55" column="46" lean-forward="true" selection-start-line="55" selection-start-column="46" selection-end-line="55" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-动态绑定属性/02-v-bind动态绑定class-对象语法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-循环遍历/05-作业的回顾和完成.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
