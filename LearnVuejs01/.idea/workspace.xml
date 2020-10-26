@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61b90792-dae7-465e-8e05-40eacb8c2664" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/07-循环遍历/01-v-for遍历数组.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-循环遍历/02-v-for遍历对象.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-循环遍历/03-v-for使用过程添加key.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-循环遍历/04-哪些数组的方法是响应式的.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-循环遍历/05-作业的回顾和完成.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-循环遍历/v-for往数组中插入元素页面的渲染过程.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-书籍购物车案例/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-书籍购物车案例/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-书籍购物车案例/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-书籍购物车案例/高阶函数.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -30,17 +28,50 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/07-循环遍历/04-哪些数组的方法是响应式的.html">
+        <entry file="file://$PROJECT_DIR$/07-循环遍历/05-作业的回顾和完成.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/08-书籍购物车案例/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="55" column="46" lean-forward="true" selection-start-line="55" selection-start-column="46" selection-end-line="55" selection-end-column="46" />
+            <state relative-caret-position="513">
+              <caret line="77" column="27" selection-start-line="77" selection-start-column="27" selection-end-line="77" selection-end-column="27" />
+              <folding>
+                <element signature="e#57#546#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/08-书籍购物车案例/高阶函数.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="779">
+              <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/07-循环遍历/05-作业的回顾和完成.html">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="1331" column="4" selection-start-line="1331" selection-start-column="4" selection-end-line="1331" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/08-书籍购物车案例/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="129">
+              <caret line="27" column="43" lean-forward="true" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -100,6 +131,9 @@
         <option value="$PROJECT_DIR$/07-循环遍历/01-v-for遍历数组.html" />
         <option value="$PROJECT_DIR$/07-循环遍历/02-v-for遍历对象.html" />
         <option value="$PROJECT_DIR$/07-循环遍历/04-哪些数组的方法是响应式的.html" />
+        <option value="$PROJECT_DIR$/08-书籍购物车案例/index.html" />
+        <option value="$PROJECT_DIR$/08-书籍购物车案例/高阶函数.js" />
+        <option value="$PROJECT_DIR$/08-书籍购物车案例/main.js" />
       </list>
     </option>
   </component>
@@ -127,12 +161,7 @@
             <path>
               <item name="LearnVuejs01" type="b2602c69:ProjectViewProjectNode" />
               <item name="LearnVuejs01" type="462c0819:PsiDirectoryNode" />
-              <item name="03-动态绑定属性" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LearnVuejs01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearnVuejs01" type="462c0819:PsiDirectoryNode" />
-              <item name="07-循环遍历" type="462c0819:PsiDirectoryNode" />
+              <item name="08-书籍购物车案例" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -145,7 +174,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/07-循环遍历" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -161,8 +190,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\MyOwnCodes\WebStorm\VueLearning\LearnVuejs01\07-循环遍历" />
       <recent name="D:\MyOwnCodes\WebStorm\VueLearning\LearnVuejs01" />
+      <recent name="D:\MyOwnCodes\WebStorm\VueLearning\LearnVuejs01\07-循环遍历" />
       <recent name="D:\MyOwnCodes\WebStorm\VueLearning\LearnVuejs01\04-计算属性" />
       <recent name="D:\MyOwnCodes\WebStorm\VueLearning\LearnVuejs01\03-动态绑定属性" />
       <recent name="D:\MyOwnCodes\WebStorm\VueLearning\LearnVuejs01\02-插值的操作" />
@@ -191,7 +220,7 @@
       <option name="presentableId" value="Default" />
       <updated>1603610155401</updated>
       <workItem from="1603610156832" duration="8759000" />
-      <workItem from="1603683183113" duration="18410000" />
+      <workItem from="1603683183113" duration="21871000" />
     </task>
     <task id="LOCAL-00001" summary="Add template.">
       <created>1603617468913</created>
@@ -242,14 +271,22 @@
       <option name="project" value="LOCAL" />
       <updated>1603716627222</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="循环遍历v-for的使用.">
+      <created>1603720180939</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1603720180939</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27169000" />
+    <option name="totallyTimeSpent" value="30630000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1913" y="-7" width="2062" height="1136" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49950248" visible="true" weight="0.19101678" />
       <window_info id="Structure" order="1" sideWeight="0.5004975" side_tool="true" weight="0.19101678" />
@@ -263,7 +300,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32968128" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -274,6 +311,32 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add template." />
     <MESSAGE value="v-bind的使用." />
@@ -282,7 +345,8 @@
     <MESSAGE value="ES6新特性." />
     <MESSAGE value="事件监听v-on的使用." />
     <MESSAGE value="条件判断v-if的使用." />
-    <option name="LAST_COMMIT_MESSAGE" value="条件判断v-if的使用." />
+    <MESSAGE value="循环遍历v-for的使用." />
+    <option name="LAST_COMMIT_MESSAGE" value="循环遍历v-for的使用." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/js/vue.js">
@@ -519,23 +583,6 @@
     <entry file="file://$PROJECT_DIR$/07-循环遍历/v-for往数组中插入元素页面的渲染过程.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/07-循环遍历/03-v-for使用过程添加key.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="1259" column="4" selection-start-line="1259" selection-start-column="4" selection-end-line="1259" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/07-循环遍历/04-哪些数组的方法是响应式的.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="55" column="46" lean-forward="true" selection-start-line="55" selection-start-column="46" selection-end-line="55" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/03-动态绑定属性/02-v-bind动态绑定class-对象语法.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -545,6 +592,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/07-循环遍历/05-作业的回顾和完成.html">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-循环遍历/04-哪些数组的方法是响应式的.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="55" column="46" lean-forward="true" selection-start-line="55" selection-start-column="46" selection-end-line="55" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-循环遍历/03-v-for使用过程添加key.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-书籍购物车案例/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="27" column="43" lean-forward="true" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-书籍购物车案例/高阶函数.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-书籍购物车案例/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="77" column="27" selection-start-line="77" selection-start-column="27" selection-end-line="77" selection-end-column="27" />
+          <folding>
+            <element signature="e#57#546#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="1331" column="4" selection-start-line="1331" selection-start-column="4" selection-end-line="1331" selection-end-column="4" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
