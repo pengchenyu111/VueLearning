@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="app">
+    <!--1.直接拼接: 语法过于繁琐-->
+    <h1>{{firstName}} {{lastName}}</h1>
+
+    <!--2.通过定义methods-->
+    <h2>{{getFullName()}}</h2>
+    <h2>{{getFullName()}}</h2>
+    <h2>{{getFullName()}}</h2>
+    <h2>{{getFullName()}}</h2>
+
+    <!--3.通过computed-->
+    <h3>{{fullName}}</h3>
+    <h3>{{fullName}}</h3>
+    <h3>{{fullName}}</h3>
+    <h3>{{fullName}}</h3>
+
+
+    <!--在多次使用时，methods会调用多次，而computed只会调用一次，原因是Vue内部会缓存，所以computed性能更高！-->
+</div>
+
+<script src="../js/vue.js"></script>
+<script>
+  // angular -> google
+  // TypeScript(microsoft) -> ts(类型检测)
+  // flow(facebook) ->
+  const app = new Vue({
+    el: '#app',
+    data: {
+      firstName: 'Kobe',
+      lastName: 'Bryant'
+    },
+    methods: {
+      getFullName: function () {
+        console.log('getFullName');
+        return this.firstName + ' ' + this.lastName
+      }
+    },
+    computed: {
+      fullName: function () {
+        console.log('fullName');
+        return this.firstName + ' ' + this.lastName
+      }
+    }
+  })
+
+</script>
+
+</body>
+</html>
