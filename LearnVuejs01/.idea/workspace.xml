@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61b90792-dae7-465e-8e05-40eacb8c2664" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/02-插值的操作/01-Mustache语法.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-插值的操作/02-v-once指令的使用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-插值的操作/03-v-html指令的使用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-插值的操作/04-v-text指令的使用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-插值的操作/05-v-pre指令的使用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-插值的操作/06-v-cloak指令的使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-动态绑定属性/01-v-bind的基本使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-动态绑定属性/02-v-bind动态绑定class-对象语法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-动态绑定属性/03-v-bind动态绑定class-数组语法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-动态绑定属性/04-v-bind动态绑定style-对象语法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-动态绑定属性/05-v-bind动态绑定style-数组语法.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -25,33 +24,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01-Vue初体验/01-HelloVuejs.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" selection-start-line="8" selection-end-line="26" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01-Vue初体验/02-vue列表展示.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01-Vue初体验/03-计数器.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/01-Vue初体验/04-vue的template.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="152">
@@ -61,15 +33,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/02-插值的操作/01-Mustache语法.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/02-插值的操作/02-v-once指令的使用.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
@@ -79,10 +42,42 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/02-插值的操作/03-v-html指令的使用.html">
+        <entry file="file://$PROJECT_DIR$/03-动态绑定属性/01-v-bind的基本使用.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/03-动态绑定属性/02-v-bind动态绑定class-对象语法.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/03-动态绑定属性/05-v-bind动态绑定style-数组语法.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/03-动态绑定属性/03-v-bind动态绑定class-数组语法.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/03-动态绑定属性/04-v-bind动态绑定style-对象语法.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="152">
-              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -139,6 +134,10 @@
         <option value="$PROJECT_DIR$/02-插值的操作/04-v-text指令的使用.html" />
         <option value="$PROJECT_DIR$/02-插值的操作/05-v-pre指令的使用.html" />
         <option value="$PROJECT_DIR$/02-插值的操作/06-v-cloak指令的使用.html" />
+        <option value="$PROJECT_DIR$/03-动态绑定属性/01-v-bind的基本使用.html" />
+        <option value="$PROJECT_DIR$/03-动态绑定属性/02-v-bind动态绑定class01.html" />
+        <option value="$PROJECT_DIR$/03-动态绑定属性/02-v-bind动态绑定class-对象语法.html" />
+        <option value="$PROJECT_DIR$/03-动态绑定属性/03-v-bind动态绑定class-数组语法.html" />
       </list>
     </option>
   </component>
@@ -166,7 +165,12 @@
             <path>
               <item name="LearnVuejs01" type="b2602c69:ProjectViewProjectNode" />
               <item name="LearnVuejs01" type="462c0819:PsiDirectoryNode" />
-              <item name="02-插值的操作" type="462c0819:PsiDirectoryNode" />
+              <item name="01-Vue初体验" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearnVuejs01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnVuejs01" type="462c0819:PsiDirectoryNode" />
+              <item name="03-动态绑定属性" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -179,7 +183,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/02-插值的操作" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/03-动态绑定属性" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -195,6 +199,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyOwnCodes\WebStorm\VueLearning\LearnVuejs01\03-动态绑定属性" />
       <recent name="D:\MyOwnCodes\WebStorm\VueLearning\LearnVuejs01\02-插值的操作" />
       <recent name="D:\MyOwnCodes\WebStorm\VueLearning\LearnVuejs01\js" />
     </key>
@@ -222,7 +227,7 @@
       <option name="presentableId" value="Default" />
       <updated>1603610155401</updated>
       <workItem from="1603610156832" duration="8759000" />
-      <workItem from="1603683183113" duration="1304000" />
+      <workItem from="1603683183113" duration="5398000" />
     </task>
     <task id="LOCAL-00001" summary="Add template.">
       <created>1603617468913</created>
@@ -235,7 +240,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10063000" />
+    <option name="totallyTimeSpent" value="14157000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1913" y="-7" width="2062" height="1136" extended-state="6" />
@@ -299,13 +304,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01-Vue初体验/04-vue的template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" selection-start-line="8" selection-end-line="21" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/02-插值的操作/01-Mustache语法.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -347,6 +345,44 @@
           <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-Vue初体验/04-vue的template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" selection-start-line="8" selection-end-line="21" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-动态绑定属性/01-v-bind的基本使用.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-动态绑定属性/02-v-bind动态绑定class-对象语法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-动态绑定属性/03-v-bind动态绑定class-数组语法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-动态绑定属性/04-v-bind动态绑定style-对象语法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-动态绑定属性/05-v-bind动态绑定style-数组语法.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">

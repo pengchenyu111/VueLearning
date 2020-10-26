@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="app">
+    <!--    <img v-bind:src="imgURL" alt="">-->
+    <!--    <a v-bind:href="webURL">百度一下</a>-->
+
+    <!--语法糖写法，真实开发中用的较多-->
+    <img :src="imgURL" alt="">
+    <a :href="webURL">百度一下</a>
+</div>
+
+<script src="../js/vue.js"></script>
+<script>
+
+  const app = new Vue({
+    el: '#app',
+    data: {
+      message: '你好，彭陈宇！',
+      imgURL: 'https://img10.360buyimg.com/babel/s1180x940_jfs/t1/134009/7/13426/90819/5f9282f9Efc3d949c/952791e6def50a1f.png.webp',
+      webURL: 'http://www.baidu.com'
+    }
+  })
+</script>
+
+</body>
+</html>
