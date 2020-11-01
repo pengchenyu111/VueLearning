@@ -2,16 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61b90792-dae7-465e-8e05-40eacb8c2664" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/12-前端模块化/01-为什么要有模块化/aaa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12-前端模块化/01-为什么要有模块化/bbb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12-前端模块化/01-为什么要有模块化/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12-前端模块化/01-为什么要有模块化/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12-前端模块化/01-为什么要有模块化/mmm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12-前端模块化/01-为什么要有模块化/nnn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12-前端模块化/02-ES6的模块化实现/aaa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12-前端模块化/02-ES6的模块化实现/bbb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12-前端模块化/02-ES6的模块化实现/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12-前端模块化/02-ES6的模块化实现/mmm.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
     </list>
@@ -269,7 +259,7 @@
       <workItem from="1604048269443" duration="1821000" />
       <workItem from="1604050112965" duration="10149000" />
       <workItem from="1604070054222" duration="246000" />
-      <workItem from="1604233027616" duration="5444000" />
+      <workItem from="1604233027616" duration="5705000" />
     </task>
     <task id="LOCAL-00001" summary="Add template.">
       <created>1603617468913</created>
@@ -369,11 +359,18 @@
       <option name="project" value="LOCAL" />
       <updated>1604236246107</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="模块化原因及import、export.">
+      <created>1604239034737</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1604239034737</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48854000" />
+    <option name="totallyTimeSpent" value="49115000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1913" y="-7" width="2062" height="1136" extended-state="6" />
@@ -459,7 +456,8 @@
     <MESSAGE value="更新ReadMe说明." />
     <MESSAGE value="组件化-父子组件访问补充." />
     <MESSAGE value="组件化-slot的使用." />
-    <option name="LAST_COMMIT_MESSAGE" value="组件化-slot的使用." />
+    <MESSAGE value="模块化原因及import、export." />
+    <option name="LAST_COMMIT_MESSAGE" value="模块化原因及import、export." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/05-事件监听/01-v-on的基本使用.html">
