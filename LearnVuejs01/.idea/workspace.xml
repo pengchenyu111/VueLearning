@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61b90792-dae7-465e-8e05-40eacb8c2664" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/10-组件化开发/11-组件通信-父子组件通信案例.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-组件化开发/12-组件通信-父子组件通信案例(watch实现).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-组件化开发/13-组件访问-父访问子-children-refs.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-组件化开发/14-组件访问-子访问父-parent-root.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-组件化高级/01-slot-插槽的基本使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-组件化高级/02-slot-具名插槽的使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-组件化高级/03-什么是编译的作用域.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-组件化高级/04-作用于插槽的案例.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -23,21 +23,8 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/10-组件化开发/09-组件通信-父传子(props中的驼峰标识).html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="24" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/10-组件化开发/10-组件通信-子传父(自定义事件).html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="817">
-              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/10-组件化开发/04-组件的语法糖注册方式.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -48,44 +35,59 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/10-组件化开发/12-组件通信-父子组件通信案例(watch实现).html">
+        <entry file="file://$PROJECT_DIR$/10-组件化开发/05-组件模板的分离写法.html">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/10-组件化开发/13-组件访问-父访问子-children-refs.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-285" />
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/10-组件化开发/14-组件访问-子访问父-parent-root.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-171" />
-          </provider>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/11-组件化高级/04-作用于插槽的案例.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/10-组件化开发/06-组件中的数据存放问题.html">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-167" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/11-组件化高级/01-slot-插槽的基本使用.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="532">
+              <caret line="34" column="17" lean-forward="true" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/10-组件化开发/07-组件中的data为什么是函数.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/10-组件化开发/01-组件化的基本使用.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/10-组件化开发/02-全局组件和局部组件.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="779">
-              <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+            <state relative-caret-position="-513" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/11-组件化高级/02-slot-具名插槽的使用.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/11-组件化高级/03-什么是编译的作用域.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -146,6 +148,9 @@
         <option value="$PROJECT_DIR$/09-v-model使用/06-v-model修饰符的使用.html" />
         <option value="$PROJECT_DIR$/10-组件化开发/02-全局组件和局部组件.html" />
         <option value="$PROJECT_DIR$/10-组件化开发/10-组件通信-子传父(自定义事件).html" />
+        <option value="$PROJECT_DIR$/11-组件化高级/01-slot-插槽的基本使用.html" />
+        <option value="$PROJECT_DIR$/11-组件化高级/02-slot-具名插槽的使用.html" />
+        <option value="$PROJECT_DIR$/11-组件化高级/03-什么是编译的作用域.html" />
       </list>
     </option>
   </component>
@@ -179,6 +184,11 @@
             <path>
               <item name="LearnVuejs01" type="b2602c69:ProjectViewProjectNode" />
               <item name="LearnVuejs01" type="462c0819:PsiDirectoryNode" />
+              <item name="11-组件化高级" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearnVuejs01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnVuejs01" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -191,7 +201,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/10-组件化开发" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -207,8 +217,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\MyOwnCodes\WebStorm\VueLearning\LearnVuejs01\10-组件化开发" />
       <recent name="D:\MyOwnCodes\WebStorm\VueLearning\LearnVuejs01" />
+      <recent name="D:\MyOwnCodes\WebStorm\VueLearning\LearnVuejs01\10-组件化开发" />
       <recent name="D:\MyOwnCodes\WebStorm\VueLearning\LearnVuejs01\07-循环遍历" />
       <recent name="D:\MyOwnCodes\WebStorm\VueLearning\LearnVuejs01\04-计算属性" />
       <recent name="D:\MyOwnCodes\WebStorm\VueLearning\LearnVuejs01\03-动态绑定属性" />
@@ -241,7 +251,7 @@
       <workItem from="1604048269443" duration="1821000" />
       <workItem from="1604050112965" duration="10149000" />
       <workItem from="1604070054222" duration="246000" />
-      <workItem from="1604233027616" duration="794000" />
+      <workItem from="1604233027616" duration="2986000" />
     </task>
     <task id="LOCAL-00001" summary="Add template.">
       <created>1603617468913</created>
@@ -327,14 +337,22 @@
       <option name="project" value="LOCAL" />
       <updated>1604070193090</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="组件化-父子组件访问补充.">
+      <created>1604233852462</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1604233852462</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44204000" />
+    <option name="totallyTimeSpent" value="46396000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1913" y="-7" width="2062" height="1136" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49950248" visible="true" weight="0.1971058" />
       <window_info id="Structure" order="1" sideWeight="0.5004975" side_tool="true" weight="0.19101678" />
@@ -414,35 +432,10 @@
     <MESSAGE value="v-model指令的使用." />
     <MESSAGE value="组件化初识及父子组件通信." />
     <MESSAGE value="更新ReadMe说明." />
-    <option name="LAST_COMMIT_MESSAGE" value="更新ReadMe说明." />
+    <MESSAGE value="组件化-父子组件访问补充." />
+    <option name="LAST_COMMIT_MESSAGE" value="组件化-父子组件访问补充." />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/03-动态绑定属性/05-v-bind动态绑定style-数组语法.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04-计算属性/03-计算属性的setter和getter.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04-计算属性/04-计算属性和methods的对比.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00-ES6补充/01-块级作用域(讲解).html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/00-ES6补充/04-对象字面量的增强写法.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="608">
@@ -653,9 +646,6 @@
     <entry file="file://$PROJECT_DIR$/10-组件化开发/03-父组件和子组件.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/10-组件化开发/04-组件的语法糖注册方式.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/10-组件化开发/08-组件通信-父组件向子组件传递数据.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1254">
@@ -663,21 +653,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/10-组件化开发/05-组件模板的分离写法.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/10-组件化开发/09-组件通信-父传子(props中的驼峰标识).html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="15" column="24" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="24" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10-组件化开发/06-组件中的数据存放问题.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10-组件化开发/07-组件中的data为什么是函数.html">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/10-组件化开发/01-组件化的基本使用.html">
       <provider selected="true" editor-type-id="text-editor" />
@@ -713,6 +694,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-285" />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10-组件化开发/04-组件的语法糖注册方式.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10-组件化开发/05-组件模板的分离写法.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11-组件化高级/01-slot-插槽的基本使用.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="34" column="17" lean-forward="true" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10-组件化开发/07-组件中的data为什么是函数.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-513" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11-组件化高级/02-slot-具名插槽的使用.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10-组件化开发/06-组件中的数据存放问题.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-167" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11-组件化高级/03-什么是编译的作用域.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11-组件化高级/04-作用于插槽的案例.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
