@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="699f7286-a73f-4039-9c1e-1a11a8c913c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/VueLearning.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearnVuejs01/13-箭头函数/01-箭头函数的基本使用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearnVuejs01/13-箭头函数/02-箭头函数参数和返回值.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearnVuejs01/13-箭头函数/03-箭头函数中的this的使用.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnVuejs01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LearnVuejs01/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="699f7286-a73f-4039-9c1e-1a11a8c913c6" name="Default Changelist" comment="箭头函数的使用">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,11 +79,17 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.26675096" />
     <property name="settings.editor.selected.configurable" value="com.zeroturnaround.javarebel.idea.plugin.settings.startup.StartupConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyOwnCodes\WebStorm\VueLearning\LearnVuejs01" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -106,8 +105,16 @@
       <workItem from="1607252373489" duration="759000" />
       <workItem from="1615333770273" duration="991000" />
       <workItem from="1615335058548" duration="53000" />
-      <workItem from="1615460442433" duration="3860000" />
+      <workItem from="1615460442433" duration="5035000" />
     </task>
+    <task id="LOCAL-00001" summary="箭头函数的使用">
+      <created>1615469649774</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1615469649774</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -149,6 +156,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="箭头函数的使用" />
+    <option name="LAST_COMMIT_MESSAGE" value="箭头函数的使用" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/LearnVuejs01/zz.html">
