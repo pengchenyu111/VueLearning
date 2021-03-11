@@ -25,5 +25,7 @@ const routes =  [
 // 2.创建VueRouter对象
 // 3.将router对象传入到Vue实例
 export default new Router({
-  routes
+  routes,
+  // 改为history模式，消除路径中的hash值，即#
+  mode: 'history'
 })
