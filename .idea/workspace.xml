@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="699f7286-a73f-4039-9c1e-1a11a8c913c6" name="Default Changelist" comment="箭头函数的使用">
+    <list default="true" id="699f7286-a73f-4039-9c1e-1a11a8c913c6" name="Default Changelist" comment="VueRouter——初始化项目">
+      <change afterPath="$PROJECT_DIR$/learnVueRouter/src/components/About.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learnVueRouter/src/components/Home.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnVueRouter/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/learnVueRouter/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnVueRouter/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnVueRouter/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/learnVueRouter/src/router/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +23,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -70,7 +83,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/LearnVuejs01" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/learnVueRouter/src/components" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -88,8 +101,37 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyOwnCodes\WebStorm\VueLearning\learnVueRouter\src\components" />
       <recent name="D:\MyOwnCodes\WebStorm\VueLearning\LearnVuejs01" />
     </key>
+  </component>
+  <component name="RunManager" selected="npm.start">
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/learnVueRouter/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/learnVueRouter/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.dev" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -105,7 +147,7 @@
       <workItem from="1607252373489" duration="759000" />
       <workItem from="1615333770273" duration="991000" />
       <workItem from="1615335058548" duration="53000" />
-      <workItem from="1615460442433" duration="5035000" />
+      <workItem from="1615460442433" duration="7176000" />
     </task>
     <task id="LOCAL-00001" summary="箭头函数的使用">
       <created>1615469649774</created>
@@ -114,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615469649774</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="VueRouter——初始化项目">
+      <created>1615471089370</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1615471089371</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -159,7 +208,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="箭头函数的使用" />
-    <option name="LAST_COMMIT_MESSAGE" value="箭头函数的使用" />
+    <MESSAGE value="VueRouter——初始化项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="VueRouter——初始化项目" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/LearnVuejs01/zz.html">
