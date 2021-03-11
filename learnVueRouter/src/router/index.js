@@ -11,6 +11,11 @@ Vue.use(Router)
 export default new Router({
   routes: [
     {
+      // 重定向，实现默认到首页的效果
+      path: '',
+      redirect: Home
+    },
+    {
       path: '/home',
       component: Home
     },
