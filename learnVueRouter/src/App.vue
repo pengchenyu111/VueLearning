@@ -13,6 +13,8 @@
     <!--    通过代码进行跳转-->
     <!--<button @click="homeClick">首页</button>-->
     <!--<button @click="aboutClick">关于</button>-->
+
+    <router-link v-bind:to="'/user/'+userId">用户</router-link>
     <router-view></router-view>
     <h2>版权信息</h2>
   </div>
@@ -21,6 +23,11 @@
 <script>
 export default {
   name: 'App',
+  data() {
+    return {
+      userId: '123'
+    }
+  },
   methods: {
     homeClick() {
       // 通过代码的方式修改路由 vue-router
