@@ -15,6 +15,10 @@
     <!--<button @click="aboutClick">关于</button>-->
 
     <router-link v-bind:to="'/user/'+userId">用户</router-link>
+
+<!--    参数传递，方式一：动态路由方式  方式二：传对象query方式-->
+<!--    <router-link to="/profile">我的</router-link>-->
+    <router-link :to="{path: '/profile', query:{name: 'coderwhy', age: 18, height:1.88}}">我的</router-link>
     <router-view></router-view>
     <h2>版权信息</h2>
   </div>
