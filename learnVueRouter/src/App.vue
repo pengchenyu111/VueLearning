@@ -16,9 +16,13 @@
 
     <router-link v-bind:to="'/user/'+userId">用户</router-link>
 
-<!--    参数传递，方式一：动态路由方式  方式二：传对象query方式-->
-<!--    <router-link to="/profile">我的</router-link>-->
+    <!--    参数传递，方式一：动态路由方式  方式二：传对象query方式-->
+    <!--    <router-link to="/profile">我的</router-link>-->
     <router-link :to="{path: '/profile', query:{name: 'coderwhy', age: 18, height:1.88}}">我的</router-link>
+    <!--    以代码的方式传递-->
+    <button @click="userClick">用户</button>
+    <button @click="profileClick">我的</button>
+
     <router-view></router-view>
     <h2>版权信息</h2>
   </div>
@@ -44,6 +48,19 @@ export default {
       // this.$router.push('/about')
       this.$router.replace('/about')
       console.log('aboutClick');
+    },
+    userClick() {
+      this.$router.push('/user/' + this.userId)
+    },
+    profileClick() {
+      this.$router.push({
+        path: '/profile',
+        query: {
+          name: 'kobe',
+          age: 19,
+          height: 1.87
+        }
+      })
     }
   }
 
