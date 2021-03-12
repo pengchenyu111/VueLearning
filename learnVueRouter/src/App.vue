@@ -9,6 +9,10 @@
     <!-- active-class: 当<router-link>对应的路由匹配成功时, 会自动给当前元素设置一个router-link-active的class   -->
     <!--    <router-link to="/home" tag="button" replace>首页</router-link>-->
     <!--    <router-link to="/about" tag="button" replace active-class="">关于</router-link>-->
+
+    <!--    通过代码进行跳转-->
+    <!--<button @click="homeClick">首页</button>-->
+    <!--<button @click="aboutClick">关于</button>-->
     <router-view></router-view>
     <h2>版权信息</h2>
   </div>
@@ -16,7 +20,22 @@
 
 <script>
 export default {
-  name: 'App'
+  name: 'App',
+  methods: {
+    homeClick() {
+      // 通过代码的方式修改路由 vue-router
+      // push => pushState
+      // this.$router.push('/home')
+      this.$router.replace('/home')
+      console.log('homeClick');
+    },
+    aboutClick() {
+      // this.$router.push('/about')
+      this.$router.replace('/about')
+      console.log('aboutClick');
+    }
+  }
+
 }
 </script>
 

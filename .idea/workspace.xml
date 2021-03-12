@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="699f7286-a73f-4039-9c1e-1a11a8c913c6" name="Default Changelist" comment="VueRouter——改为history模式，消除路径中的hash值，即#">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnVueRouter/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/learnVueRouter/src/App.vue" afterDir="false" />
-    </list>
+    <list default="true" id="699f7286-a73f-4039-9c1e-1a11a8c913c6" name="Default Changelist" comment="VueRouter——router-link的tag、replace和active-class属性" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -144,7 +141,7 @@
       <workItem from="1615333770273" duration="991000" />
       <workItem from="1615335058548" duration="53000" />
       <workItem from="1615460442433" duration="8808000" />
-      <workItem from="1615549098104" duration="709000" />
+      <workItem from="1615549098104" duration="1159000" />
     </task>
     <task id="LOCAL-00001" summary="箭头函数的使用">
       <created>1615469649774</created>
@@ -188,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615473917494</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="VueRouter——router-link的tag、replace和active-class属性">
+      <created>1615549965190</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1615549965190</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -238,7 +242,8 @@
     <MESSAGE value="VueRouter——使用router-link和router-view标签切换页面" />
     <MESSAGE value="VueRouter——重定向，实现默认到首页的效果" />
     <MESSAGE value="VueRouter——改为history模式，消除路径中的hash值，即#" />
-    <option name="LAST_COMMIT_MESSAGE" value="VueRouter——改为history模式，消除路径中的hash值，即#" />
+    <MESSAGE value="VueRouter——router-link的tag、replace和active-class属性" />
+    <option name="LAST_COMMIT_MESSAGE" value="VueRouter——router-link的tag、replace和active-class属性" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/LearnVuejs01/zz.html">
