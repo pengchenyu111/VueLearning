@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="699f7286-a73f-4039-9c1e-1a11a8c913c6" name="Default Changelist" comment="VueRouter——通过代码进行跳转">
-      <change afterPath="$PROJECT_DIR$/learnVueRouter/src/components/User.vue" afterDir="false" />
+    <list default="true" id="699f7286-a73f-4039-9c1e-1a11a8c913c6" name="Default Changelist" comment="VueRouter——动态路由及获取路由中的信息">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnVueRouter/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/learnVueRouter/src/App.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/learnVueRouter/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/learnVueRouter/src/router/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +92,7 @@
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.26675096" />
-    <property name="settings.editor.selected.configurable" value="com.zeroturnaround.javarebel.idea.plugin.settings.startup.StartupConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -146,7 +144,7 @@
       <workItem from="1615333770273" duration="991000" />
       <workItem from="1615335058548" duration="53000" />
       <workItem from="1615460442433" duration="8808000" />
-      <workItem from="1615549098104" duration="2702000" />
+      <workItem from="1615549098104" duration="4268000" />
     </task>
     <task id="LOCAL-00001" summary="箭头函数的使用">
       <created>1615469649774</created>
@@ -204,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615550383686</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="VueRouter——动态路由及获取路由中的信息">
+      <created>1615552094640</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1615552094640</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -256,7 +261,8 @@
     <MESSAGE value="VueRouter——改为history模式，消除路径中的hash值，即#" />
     <MESSAGE value="VueRouter——router-link的tag、replace和active-class属性" />
     <MESSAGE value="VueRouter——通过代码进行跳转" />
-    <option name="LAST_COMMIT_MESSAGE" value="VueRouter——通过代码进行跳转" />
+    <MESSAGE value="VueRouter——动态路由及获取路由中的信息" />
+    <option name="LAST_COMMIT_MESSAGE" value="VueRouter——动态路由及获取路由中的信息" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/LearnVuejs01/zz.html">
