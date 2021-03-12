@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="699f7286-a73f-4039-9c1e-1a11a8c913c6" name="Default Changelist" comment="VueRouter——动态路由及获取路由中的信息">
+    <list default="true" id="699f7286-a73f-4039-9c1e-1a11a8c913c6" name="Default Changelist" comment="VueRouter——路由懒加载">
+      <change afterPath="$PROJECT_DIR$/learnVueRouter/src/components/HomeMessage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learnVueRouter/src/components/HomeNews.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnVueRouter/src/components/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/learnVueRouter/src/components/Home.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/learnVueRouter/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/learnVueRouter/src/router/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -144,7 +147,7 @@
       <workItem from="1615333770273" duration="991000" />
       <workItem from="1615335058548" duration="53000" />
       <workItem from="1615460442433" duration="8808000" />
-      <workItem from="1615549098104" duration="4268000" />
+      <workItem from="1615549098104" duration="5291000" />
     </task>
     <task id="LOCAL-00001" summary="箭头函数的使用">
       <created>1615469649774</created>
@@ -209,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615552094640</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="VueRouter——路由懒加载">
+      <created>1615556336828</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1615556336828</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -262,7 +272,8 @@
     <MESSAGE value="VueRouter——router-link的tag、replace和active-class属性" />
     <MESSAGE value="VueRouter——通过代码进行跳转" />
     <MESSAGE value="VueRouter——动态路由及获取路由中的信息" />
-    <option name="LAST_COMMIT_MESSAGE" value="VueRouter——动态路由及获取路由中的信息" />
+    <MESSAGE value="VueRouter——路由懒加载" />
+    <option name="LAST_COMMIT_MESSAGE" value="VueRouter——路由懒加载" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/LearnVuejs01/zz.html">

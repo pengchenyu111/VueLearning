@@ -8,13 +8,15 @@ import Router from 'vue-router'
 // 懒加载方式
 // 路由懒加载的主要作用就是将路由对应的组件打包成一个个的js代码块，只有在这个路由被访问到的时候, 才加载对应的组件，这样就更加高效了
 const Home = () => import('../components/Home')
+const HomeNews = () => import("../components/HomeNews")
+const HomeMessage = () => import("../components/HomeMessage")
 const About = () => import('../components/About')
 const User = () => import('../components/User')
 
 // 1.通过Vue.use(插件), 安装插件
 Vue.use(Router)
 
-const routes =  [
+const routes = [
   {
     // 重定向，实现默认到首页的效果
     path: '',
@@ -22,7 +24,22 @@ const routes =  [
   },
   {
     path: '/home',
-    component: Home
+    component: Home,
+    // 嵌套路由
+    children: [
+      // {
+      //   path: '',
+      //   redirect: 'news'
+      // },
+      {
+        path: 'news',
+        component: HomeNews
+      },
+      {
+        path: 'message',
+        component: HomeMessage
+      }
+    ]
   },
   {
     path: '/about',
