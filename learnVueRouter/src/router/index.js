@@ -29,10 +29,10 @@ const routes = [
     meta: {title: '首页'},
     // 嵌套路由
     children: [
-      // {
-      //   path: '',
-      //   redirect: 'news'
-      // },
+      {
+        path: '',
+        redirect: 'news'
+      },
       {
         path: 'news',
         component: HomeNews

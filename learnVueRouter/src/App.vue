@@ -23,7 +23,10 @@
     <button @click="userClick">用户</button>
     <button @click="profileClick">我的</button>
 
-    <router-view></router-view>
+    <!--    keep-alive 是 Vue 内置的一个组件，可以使被包含的组件保留状态，或避免重新渲染-->
+    <keep-alive exclude="Profile,User">
+      <router-view></router-view>
+    </keep-alive>
     <h2>版权信息</h2>
   </div>
 </template>

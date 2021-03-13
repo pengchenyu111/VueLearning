@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="699f7286-a73f-4039-9c1e-1a11a8c913c6" name="Default Changelist" comment="VueRouter——用代码的方式实现页面间的参数传递">
+    <list default="true" id="699f7286-a73f-4039-9c1e-1a11a8c913c6" name="Default Changelist" comment="VueRouter——导航守卫实现修改网页标题">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnVueRouter/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/learnVueRouter/src/App.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/learnVueRouter/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/learnVueRouter/src/router/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -144,7 +145,7 @@
       <workItem from="1615333770273" duration="991000" />
       <workItem from="1615335058548" duration="53000" />
       <workItem from="1615460442433" duration="8808000" />
-      <workItem from="1615549098104" duration="9610000" />
+      <workItem from="1615549098104" duration="10761000" />
     </task>
     <task id="LOCAL-00001" summary="箭头函数的使用">
       <created>1615469649774</created>
@@ -237,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615559434701</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="VueRouter——导航守卫实现修改网页标题">
+      <created>1615626322458</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1615626322458</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -294,7 +302,8 @@
     <MESSAGE value="VueRouter——嵌套路由的使用" />
     <MESSAGE value="VueRouter——用query的方式实现页面间的参数传递" />
     <MESSAGE value="VueRouter——用代码的方式实现页面间的参数传递" />
-    <option name="LAST_COMMIT_MESSAGE" value="VueRouter——用代码的方式实现页面间的参数传递" />
+    <MESSAGE value="VueRouter——导航守卫实现修改网页标题" />
+    <option name="LAST_COMMIT_MESSAGE" value="VueRouter——导航守卫实现修改网页标题" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/LearnVuejs01/zz.html">
