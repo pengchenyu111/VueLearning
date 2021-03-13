@@ -26,6 +26,7 @@ const routes = [
   {
     path: '/home',
     component: Home,
+    meta: {title: '首页'},
     // 嵌套路由
     children: [
       // {
@@ -44,22 +45,41 @@ const routes = [
   },
   {
     path: '/about',
-    component: About
+    component: About,
+    meta: {title: '关于'},
   },
   {
     path: '/user/:userId',
-    component: User
+    component: User,
+    meta: {title: '用户'},
   },
   {
     path: '/profile',
-    component: Profile
+    component: Profile,
+    meta: {title: '我的'},
   }
 ]
 
 // 2.创建VueRouter对象
-// 3.将router对象传入到Vue实例
-export default new Router({
+const router = new Router({
   routes,
   // 改为history模式，消除路径中的hash值，即#
   mode: 'history'
 })
+
+// vue-router提供的导航守卫主要用来监听监听路由的进入和离开的.
+// vue-router提供了beforeEach和afterEach的钩子函数, 它们会在路由即将改变前和改变后触发.
+// 前置守卫(guard)
+router.beforeEach((to, from, next) => {
+  // 从from跳转到to
+  document.title = to.matched[0].meta.title
+  next()
+})
+// 后置钩子(hook)
+router.afterEach((to, from) => {
+  // console.log('----');
+})
+
+
+// 3.将router对象传入到Vue实例
+export default router
