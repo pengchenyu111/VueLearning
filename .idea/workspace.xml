@@ -1,34 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="699f7286-a73f-4039-9c1e-1a11a8c913c6" name="Default Changelist" comment="Promise——原理及基本使用">
-      <change afterPath="$PROJECT_DIR$/learnVuex/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnVuex/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnVuex/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnVuex/.postcssrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnVuex/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnVuex/build/build.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnVuex/build/check-versions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnVuex/build/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnVuex/build/utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnVuex/build/vue-loader.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnVuex/build/webpack.base.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnVuex/build/webpack.dev.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnVuex/build/webpack.prod.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnVuex/config/dev.env.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnVuex/config/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnVuex/config/prod.env.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnVuex/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnVuex/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnVuex/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnVuex/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnVuex/src/assets/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnVuex/src/components/HelloVuex.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnVuex/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnVuex/src/router/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnVuex/src/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnVuex/static/.gitkeep" afterDir="false" />
+    <list default="true" id="699f7286-a73f-4039-9c1e-1a11a8c913c6" name="Default Changelist" comment="Vuex——State状态的访问和修改">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnVuex/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/learnVuex/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnVuex/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/learnVuex/src/store/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,7 +192,7 @@
       <workItem from="1615795864249" duration="2521000" />
       <workItem from="1615798620645" duration="546000" />
       <workItem from="1615799175541" duration="21000" />
-      <workItem from="1615799219025" duration="2595000" />
+      <workItem from="1615799219025" duration="4333000" />
     </task>
     <task id="LOCAL-00001" summary="箭头函数的使用">
       <created>1615469649774</created>
@@ -337,7 +313,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615733537339</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Vuex——State状态的访问和修改">
+      <created>1615811257454</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1615811257454</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -399,7 +382,8 @@
     <MESSAGE value="VueRouter——keep-alive" />
     <MESSAGE value="VueRouter——整合slot创建一个app的tabBar" />
     <MESSAGE value="Promise——原理及基本使用" />
-    <option name="LAST_COMMIT_MESSAGE" value="Promise——原理及基本使用" />
+    <MESSAGE value="Vuex——State状态的访问和修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="Vuex——State状态的访问和修改" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/LearnVuejs01/zz.html">
