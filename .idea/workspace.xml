@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="699f7286-a73f-4039-9c1e-1a11a8c913c6" name="Default Changelist" comment="Vuex——State状态的访问和修改">
+    <list default="true" id="699f7286-a73f-4039-9c1e-1a11a8c913c6" name="Default Changelist" comment="Vuex——getters(变换state中的数据以提供访问)的基本使用">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/learnVuex/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/learnVuex/src/App.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/learnVuex/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/learnVuex/src/store/index.js" afterDir="false" />
@@ -192,7 +192,7 @@
       <workItem from="1615795864249" duration="2521000" />
       <workItem from="1615798620645" duration="546000" />
       <workItem from="1615799175541" duration="21000" />
-      <workItem from="1615799219025" duration="4333000" />
+      <workItem from="1615799219025" duration="5522000" />
     </task>
     <task id="LOCAL-00001" summary="箭头函数的使用">
       <created>1615469649774</created>
@@ -320,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615811257454</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Vuex——getters(变换state中的数据以提供访问)的基本使用">
+      <created>1615813086609</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1615813086609</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -383,7 +390,8 @@
     <MESSAGE value="VueRouter——整合slot创建一个app的tabBar" />
     <MESSAGE value="Promise——原理及基本使用" />
     <MESSAGE value="Vuex——State状态的访问和修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="Vuex——State状态的访问和修改" />
+    <MESSAGE value="Vuex——getters(变换state中的数据以提供访问)的基本使用" />
+    <option name="LAST_COMMIT_MESSAGE" value="Vuex——getters(变换state中的数据以提供访问)的基本使用" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/LearnVuejs01/zz.html">
