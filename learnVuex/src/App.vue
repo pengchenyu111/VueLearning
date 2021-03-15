@@ -6,6 +6,8 @@
     <button @click="subtraction">-</button>
     <button @click="addCount(5)">+5</button>
     <button @click="addStu">添加学生</button>
+    <button @click="updateInfo">更新学生</button>
+    <h2>{{$store.state.info}}</h2>
 
     <h2>---------------App内容:getter--------------</h2>
     <h2>{{ $store.getters.powerCounter }}</h2>
@@ -20,6 +22,7 @@
 
 <script>
 import HelloVuex from "./components/HelloVuex";
+import {UPDATE_INFO} from "./store/mutations-types";
 
 export default {
   name: 'App',
@@ -55,6 +58,9 @@ export default {
     addStu() {
       const stu = {id: 114, name: 'alan', age: 32}
       this.$store.commit('addStu', stu)
+    },
+    updateInfo() {
+      this.$store.commit(UPDATE_INFO)
     }
   }
 }

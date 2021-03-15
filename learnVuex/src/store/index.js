@@ -1,5 +1,7 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
+import * as types from './mutations-types'
+
 
 Vue.use(Vuex)
 
@@ -12,7 +14,12 @@ const store = new Vuex.Store({
       {id: 111, name: 'kobe', age: 20},
       {id: 112, name: 'bob', age: 25},
       {id: 113, name: 'james', age: 31},
-    ]
+    ],
+    info: {
+      id: 222,
+      name: 'pcy',
+      age: 22
+    }
   },
   // 建议通过mutations来修改state，而不是直接修改
   mutations: {
@@ -30,6 +37,9 @@ const store = new Vuex.Store({
     },
     addStu(state, stu) {
       state.students.push(stu)
+    },
+    [types.UPDATE_INFO](state) {
+      state.info.name = 'xxx'
     }
   },
   actions: {},
