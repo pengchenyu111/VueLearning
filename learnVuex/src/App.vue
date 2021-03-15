@@ -1,5 +1,13 @@
 <template>
   <div id="app">
+
+    <h2>---------------modules内容--------------</h2>
+    <h2>{{$store.state.a.name}}</h2>
+    <button @click="updateName">modules中更新</button>
+    <h2>{{$store.getters.fullName}}</h2>
+    <h2>{{$store.getters.fullName2}}</h2>
+    <button @click="asyncUpdateName">异步更新</button>
+
     <h2>---------------App内容--------------</h2>
     <h2>{{ $store.state.counter }}</h2>
     <button @click="addition">+</button>
@@ -71,6 +79,12 @@ export default {
       .then(res => {
         console.log('里面完成里提交');
       })
+    },
+    updateName() {
+      this.$store.commit('updateName', 'zhangsan')
+    },
+    asyncUpdateName() {
+      this.$store.dispatch('aUpdateName')
     }
   }
 }

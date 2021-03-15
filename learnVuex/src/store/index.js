@@ -5,6 +5,35 @@ import * as types from './mutations-types'
 
 Vue.use(Vuex)
 
+const moduleA = {
+  state: {
+    name: 'tom'
+  },
+  getters: {
+    fullName(state) {
+      return state.name += 'hadi'
+    },
+    // 第三个参数可以拿到根的state
+    fullName2(state, getters, rootState) {
+      return getters.fullName + rootState.counter
+    },
+
+  },
+  mutations: {
+    updateName(state, payload) {
+      state.name = payload
+    }
+  },
+  actions: {
+    aUpdateName(context) {
+      setTimeout(() => {
+        context.commit('updateName', 'wangwu')
+      }, 1000)
+    }
+  }
+}
+
+
 const store = new Vuex.Store({
   // 保存状态
   state: {
@@ -21,6 +50,7 @@ const store = new Vuex.Store({
       age: 22
     }
   },
+
   // 建议通过mutations来修改state，而不是直接修改
   mutations: {
     increment(state) {
@@ -79,7 +109,11 @@ const store = new Vuex.Store({
       }
     }
   },
-  modules: {}
+
+  // 分模块，解决单一状态树过于臃肿的情况
+  modules: {
+    a: moduleA
+  }
 })
 
 
