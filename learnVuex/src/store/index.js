@@ -42,7 +42,20 @@ const store = new Vuex.Store({
       state.info.name = 'xxx'
     }
   },
-  actions: {},
+
+  // 做异步操作，再到mutation
+  actions: {
+    aUpdateInfo(context, payload) {
+      return new Promise((resolve, reject) => {
+        setTimeout(() => {
+          context.commit(types.UPDATE_INFO)
+          console.log(payload);
+          resolve('ok')
+        }, 1000)
+      })
+
+    }
+  },
 
   // 将state中数据变换后的数据
   getters: {

@@ -8,6 +8,7 @@
     <button @click="addStu">添加学生</button>
     <button @click="updateInfo">更新学生</button>
     <h2>{{$store.state.info}}</h2>
+    <button @click="aUpdateInfo">异步更新学生</button>
 
     <h2>---------------App内容:getter--------------</h2>
     <h2>{{ $store.getters.powerCounter }}</h2>
@@ -61,6 +62,15 @@ export default {
     },
     updateInfo() {
       this.$store.commit(UPDATE_INFO)
+    },
+    aUpdateInfo() {
+      // 当涉及异步操作时，用action
+      // 当要传递参数时，和mutation用法一致
+      this.$store
+        .dispatch('aUpdateInfo','我是payload')
+      .then(res => {
+        console.log('里面完成里提交');
+      })
     }
   }
 }
