@@ -1,38 +1,12 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-import * as types from './mutations-types'
 
+import getters from "./getters";
+import mutations from "./mutations";
+import actions from "./actions";
+import moduleA from "./modules/moduleA";
 
 Vue.use(Vuex)
-
-const moduleA = {
-  state: {
-    name: 'tom'
-  },
-  getters: {
-    fullName(state) {
-      return state.name += 'hadi'
-    },
-    // 第三个参数可以拿到根的state
-    fullName2(state, getters, rootState) {
-      return getters.fullName + rootState.counter
-    },
-
-  },
-  mutations: {
-    updateName(state, payload) {
-      state.name = payload
-    }
-  },
-  actions: {
-    aUpdateName(context) {
-      setTimeout(() => {
-        context.commit('updateName', 'wangwu')
-      }, 1000)
-    }
-  }
-}
-
 
 const store = new Vuex.Store({
   // 保存状态
@@ -52,63 +26,13 @@ const store = new Vuex.Store({
   },
 
   // 建议通过mutations来修改state，而不是直接修改
-  mutations: {
-    increment(state) {
-      state.counter++
-    },
-    decrement(state) {
-      state.counter--
-    },
-    incrementCount(state, payload) {
-      // 提交方式1
-      state.counter += payload
-      // 提交方式2
-      //state.counter += payload.count
-    },
-    addStu(state, stu) {
-      state.students.push(stu)
-    },
-    [types.UPDATE_INFO](state) {
-      state.info.name = 'xxx'
-    }
-  },
+  mutations,
 
   // 做异步操作，再到mutation
-  actions: {
-    aUpdateInfo(context, payload) {
-      return new Promise((resolve, reject) => {
-        setTimeout(() => {
-          context.commit(types.UPDATE_INFO)
-          console.log(payload);
-          resolve('ok')
-        }, 1000)
-      })
-
-    }
-  },
+  actions,
 
   // 将state中数据变换后的数据
-  getters: {
-    powerCounter(state) {
-      return state.counter * state.counter
-    },
-    more20Stu(state) {
-      return state.students.filter(s => {
-        return s.age > 20
-      })
-    },
-    more20StuLength(state, getters) {
-      return getters.more20Stu.length
-    },
-    moreAgeStu(state) {
-      // return function (age) {
-      //   return state.students.filter(s => s.age > age)
-      // }
-      return age => {
-        return state.students.filter(s => s.age > age)
-      }
-    }
-  },
+  getters,
 
   // 分模块，解决单一状态树过于臃肿的情况
   modules: {
