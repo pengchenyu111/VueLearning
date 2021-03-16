@@ -1,33 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="699f7286-a73f-4039-9c1e-1a11a8c913c6" name="Default Changelist" comment="Vuex——优化store的目录结构">
-      <change afterPath="$PROJECT_DIR$/learnAxios/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnAxios/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnAxios/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnAxios/.postcssrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnAxios/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnAxios/build/build.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnAxios/build/check-versions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnAxios/build/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnAxios/build/utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnAxios/build/vue-loader.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnAxios/build/webpack.base.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnAxios/build/webpack.dev.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnAxios/build/webpack.prod.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnAxios/config/dev.env.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnAxios/config/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnAxios/config/prod.env.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnAxios/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnAxios/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnAxios/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnAxios/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnAxios/src/api/request.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnAxios/src/assets/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnAxios/src/components/HelloAxios.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnAxios/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnAxios/src/router/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnAxios/static/.gitkeep" afterDir="false" />
+    <list default="true" id="699f7286-a73f-4039-9c1e-1a11a8c913c6" name="Default Changelist" comment="axios——基本使用及结构优化">
+      <change afterPath="$PROJECT_DIR$/supermall/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermall/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermall/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermall/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermall/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermall/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermall/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermall/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermall/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermall/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermall/src/assets/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermall/src/assets/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermall/src/assets/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermall/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermall/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermall/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermall/vue.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +31,7 @@
       <list>
         <option value="HTML File" />
         <option value="Vue Single File Component" />
+        <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -107,7 +99,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FirstTest" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/supermall/src/assets/css" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -121,43 +114,46 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.26675096" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="ts.external.directory.path" value="D:\WebStorm\WebStorm 2020.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyOwnCodes\WebStorm\VueLearning\supermall\src\assets\css" />
+      <recent name="D:\MyOwnCodes\WebStorm\VueLearning\supermall\src" />
       <recent name="D:\MyOwnCodes\WebStorm\VueLearning\learnVuex\src\store" />
       <recent name="D:\MyOwnCodes\WebStorm\VueLearning\promise" />
       <recent name="D:\MyOwnCodes\WebStorm\VueLearning\tabbar\src\views" />
-      <recent name="D:\MyOwnCodes\WebStorm\VueLearning\tabbar\src\assets\img" />
-      <recent name="D:\MyOwnCodes\WebStorm\VueLearning\learnVueRouter\src\components" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\MyOwnCodes\WebStorm\VueLearning\supermall" />
+      <recent name="D:\MyOwnCodes\WebStorm\VueLearning\supermall\src\assets\img" />
       <recent name="D:\MyOwnCodes\WebStorm\VueLearning\tabbar\src\components\mainTabBar" />
       <recent name="D:\MyOwnCodes\WebStorm\VueLearning\tabbar\src\assets\img" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start (4)">
+  <component name="RunManager" selected="npm.serve">
     <configuration name="request.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/learnAxios/src/api/request.js" working-dir="$PROJECT_DIR$/learnAxios/src/api">
       <method v="2" />
     </configuration>
     <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/learnAxios/src/utils/test.js" working-dir="$PROJECT_DIR$/learnAxios/src/utils">
       <method v="2" />
     </configuration>
-    <configuration name="start (2)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/vuex/package.json" />
+    <configuration name="lint" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/supermall/package.json" />
       <command value="run" />
       <scripts>
-        <script value="start" />
+        <script value="lint" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="start (3)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/learnVuex/package.json" />
+    <configuration name="serve" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/supermall/package.json" />
       <command value="run" />
       <scripts>
-        <script value="start" />
+        <script value="serve" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -175,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.serve" />
+        <item itemvalue="npm.lint" />
         <item itemvalue="npm.start (4)" />
         <item itemvalue="Node.js.test.js" />
         <item itemvalue="Node.js.request.js" />
-        <item itemvalue="npm.start (3)" />
-        <item itemvalue="npm.start (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -204,7 +200,8 @@
       <workItem from="1615798620645" duration="546000" />
       <workItem from="1615799175541" duration="21000" />
       <workItem from="1615799219025" duration="11673000" />
-      <workItem from="1615881189630" duration="13031000" />
+      <workItem from="1615881189630" duration="14278000" />
+      <workItem from="1615905593160" duration="4745000" />
     </task>
     <task id="LOCAL-00001" summary="箭头函数的使用">
       <created>1615469649774</created>
@@ -374,7 +371,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615820899981</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="axios——基本使用及结构优化">
+      <created>1615904434917</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1615904434917</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -443,7 +447,8 @@
     <MESSAGE value="Vuex——actions(解决异步操作)的基本使用" />
     <MESSAGE value="Vuex——modules的基本使用" />
     <MESSAGE value="Vuex——优化store的目录结构" />
-    <option name="LAST_COMMIT_MESSAGE" value="Vuex——优化store的目录结构" />
+    <MESSAGE value="axios——基本使用及结构优化" />
+    <option name="LAST_COMMIT_MESSAGE" value="axios——基本使用及结构优化" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/LearnVuejs01/zz.html">
